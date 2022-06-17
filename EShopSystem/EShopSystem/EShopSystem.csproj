@@ -132,6 +132,7 @@
     <Compile Include="Controllers\DepartmentsController.cs" />
     <Compile Include="Controllers\EmployeesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PaymentModesController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="DAL\ShopDbContext.cs" />
     <Compile Include="DAL\ShopInitializer.cs" />
@@ -214,6 +215,11 @@
     <Content Include="Views\Employees\Details.cshtml" />
     <Content Include="Views\Employees\Edit.cshtml" />
     <Content Include="Views\Employees\Index.cshtml" />
+    <Content Include="Views\PaymentModes\Create.cshtml" />
+    <Content Include="Views\PaymentModes\Delete.cshtml" />
+    <Content Include="Views\PaymentModes\Details.cshtml" />
+    <Content Include="Views\PaymentModes\Edit.cshtml" />
+    <Content Include="Views\PaymentModes\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
