@@ -70,6 +70,7 @@ namespace EShopSystem.DAL
             context.Employees.AddRange(employees);
             context.SaveChanges();
 
+            base.Seed(context);
         }
     }
 }
