@@ -232,6 +232,7 @@
     <Content Include="Views\InvoiceDetails\Details.cshtml" />
     <Content Include="Views\InvoiceDetails\Edit.cshtml" />
     <Content Include="Views\InvoiceDetails\Index.cshtml" />
+    <Content Include="Views\Invoices\_InvoiceDetail.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
