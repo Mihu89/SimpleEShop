@@ -29,5 +29,7 @@ namespace EShopSystem.DAL
             // remove convention for pluralise table name
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
         }
+
+        public System.Data.Entity.DbSet<EShopSystem.Models.Invoice> Invoices { get; set; }
     }
 }
